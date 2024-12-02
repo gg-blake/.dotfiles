@@ -27,3 +27,6 @@ sudo chsh -s $(which zsh) $USER
 
 #  Bundle ZSH plugins
 antibody bundle <~/.zsh_plugins.txt >~/.zsh_plugins.sh
+
+# Install Neovim plugins
+nvim --headless "+Lazy! update" +q!
