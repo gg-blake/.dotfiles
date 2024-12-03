@@ -3,13 +3,16 @@ channels:
   - pytorch
   - conda-forge
   - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
 dependencies:
-  - python=3.12
   - conda-forge::tiktoken
+  - datasets
+  - python=3.12
   - pytorch
   - pytorch-cuda=12.4
   - torchaudio
   - torchvision
-  - datasets
   - transformers
+  - conda-forge::matplotlib
 prefix: /home/blake/miniconda3/envs/cs478-env
