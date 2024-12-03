@@ -1,0 +1,15 @@
+name: cs478-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - conda-forge::tiktoken
+  - pytorch
+  - pytorch-cuda=12.4
+  - torchaudio
+  - torchvision
+  - datasets
+  - transformers
+prefix: /home/blake/miniconda3/envs/cs478-env
