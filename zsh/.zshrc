@@ -33,3 +33,5 @@ if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+if [ -e /home/blake/.nix-profile/etc/profile.d/nix.sh ]; then . /home/blake/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer

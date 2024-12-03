@@ -42,6 +42,9 @@ for i in ~/miniconda3/envs/*; do # iterate over all files in current dir
         mkdir -p "$i/etc/conda/deactivate.d"
         cp ~/.dotfiles/export_env.sh "$i/etc/conda/deactivate.d" # copy water.txt into it
         chmod +x "$i/etc/conda/deactivate.d/export_env.sh"
+        mkdir -p "$i/etc/conda/activate.d"
+        cp ~/.dotfiles/update_env.sh "$i/etc/conda/activate.d" # copy water.txt into it
+        chmod +x "$i/etc/conda/activate.d/update_env.sh"
     fi
 done
 
