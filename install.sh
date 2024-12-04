@@ -20,6 +20,9 @@ stow zsh
 stow nvim
 stow conda
 
+# Install Latest Node Version
+nvm install node
+
 # Add ZSH to valid login shells
 command -v zsh | sudo tee -a /etc/shells
 
