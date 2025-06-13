@@ -1,4 +1,0 @@
-channels:
-  - pytorch
-  - conda-forge
-  - defaults
