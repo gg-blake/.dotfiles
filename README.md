@@ -28,8 +28,7 @@ git clone [your fork url]
 ```
 2. Navigate into the .dotfiles directory and run the install script
 ```
-cd .dotfiles
-```
+cd ~/.dotfiles
 chmod x+ install.sh
 ./install.sh
 ```
