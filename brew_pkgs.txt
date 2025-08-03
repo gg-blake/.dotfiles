@@ -13,4 +13,5 @@ rust
 stow
 tmux
 wget
+zed
 zoxide
