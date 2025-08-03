@@ -10,7 +10,7 @@ This is my repository for tracking all of my configuration files for my current 
 - [Quickstart Guide](#110-quickstart-quide)
 - [Manual Setup Guide](#120-manual-setup-guide)
 
-# 1.0.0 Environment Stack
+# 1.0.0 Environment Info
 ## 1.0.1 Operating System
 I am originally a Windows native, however most of my work now is done on the latest version of MacOS. For server projects, I run [Ubuntu Server 24.04 LTS](https://ubuntu.com/download/server).
 ## 1.0.2 Terminal
