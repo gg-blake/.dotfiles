@@ -31,7 +31,7 @@ fi
 
 # Update & upgrade
 brew update && brew upgrade
-   
+
 # Core packages
 xargs brew install < brew_pkgs.txt
 
