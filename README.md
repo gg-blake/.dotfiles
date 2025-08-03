@@ -2,13 +2,13 @@
 This is my repository for tracking all of my configuration files for my current development environment. Using this repository allows me to quickly begin development on new Linux and Unix-based devices. For a guide on installation, please refer to the [Quickstart Guide](#1.1.0-quickstart-guide)
 
 # Table of Contents
-- [Environment Stack](#1.0.0-environment-stack)
-    - [Operating System](#1.0.1-operating-system)
-    - [Terminal](#1.0.2-terminal)
-    - [Editor](#1.0.3-editor)
-    - [Languages](#1.0.4-languages)
-- [Quickstart Guide](#1.1.0-quickstart-quide)
-- [Manual Setup Guide](#1.2.0-manual-setup-guide)
+- [Environment Stack](#100-environment-stack)
+    - [Operating System](#101-operating-system)
+    - [Terminal](#102-terminal)
+    - [Editor](#103-editor)
+    - [Languages](#104-languages)
+- [Quickstart Guide](#110-quickstart-quide)
+- [Manual Setup Guide](#120-manual-setup-guide)
 
 # 1.0.0 Environment Stack
 ## 1.0.1 Operating System
