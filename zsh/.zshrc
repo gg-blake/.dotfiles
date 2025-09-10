@@ -134,3 +134,6 @@ eval "$(zoxide init zsh --cmd cd)"
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
+
+export DYLD_FALLBACK_LIBRARY_PATH="/opt/homebrew/lib:$DYLD_FALLBACK_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:$PKG_CONFIG_PATH"
